@@ -1,0 +1,3 @@
+[submodule "src/toylang"]
+  path = src/toylang
+  url = git@github.com:godgnidoc/toylang.git

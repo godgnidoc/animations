@@ -1,0 +1,10 @@
+{
+  "extends": "@motion-canvas/2d/tsconfig.project.json",
+  "include": ["src", "src/toylang/episode-1-3/.tsx"],
+  "compilerOptions": {
+    "paths": {
+      "/*": ["./*"],
+      "src/*": ["./src/*"],
+    }
+  }
+}
