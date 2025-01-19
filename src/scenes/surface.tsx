@@ -1,5 +1,5 @@
 import { Txt } from "@motion-canvas/2d";
-import { ColorTheme } from "src/theme";
+import { ColorTheme } from "/src/theme";
 import {
   all,
   createRef,
@@ -39,6 +39,7 @@ export function makeSurfaceScene(
         {serial}
       </Txt>,
       <Txt
+        ref={this.chapter}
         fill={theme.primary}
         fontSize={48}
         topRight={this.serial().bottomRight}
@@ -47,7 +48,7 @@ export function makeSurfaceScene(
       </Txt>,
       <Txt
         ref={this.power}
-        fill={theme.primary}
+        fill={theme.secondary}
         fontSize={24}
         bottom={() => this.bottom(64)}
       >

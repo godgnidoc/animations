@@ -1,8 +1,30 @@
+/**
+ * 颜色主题
+ */
 export interface ColorTheme {
+  /**
+   * 主要文本色
+   */
   primary: string
+
+  /**
+   * 次要文本色
+   */
   secondary: string
+
+  /**
+   * 背景色
+   */
   background: string
+
+  /**
+   * 强调色
+   */
   accent: string
+
+  /**
+   * 淡化色
+   */
   dimmed: string
 }
 
@@ -21,3 +43,5 @@ export const dark: ColorTheme = {
   dimmed: dark_colors[3],
   background: dark_colors[4],
 }
+
+export const Transparent = '#0000'
